@@ -1,0 +1,836 @@
+#include <iostream>
+#include <conio.h>
+#include <math.h>
+#include <iomanip>
+#include <windows.h>
+  using namespace std;
+int main() 
+{
+	system("color 1");
+	int opcion=0, i;
+	for(i=0; i>=0; i++){
+	cout<<"__________________________________________________________________________________________________________\n";
+	Beep(330,100); Sleep(100);
+	Beep(330,100); Sleep(300);
+	cout<<"\n	BIENVENIDO-BIENVENIDA A MI   \n";
+	Beep(330,100); Sleep(300);
+	Beep(262,100); Sleep(100);
+	cout<<"\n	MM       MM  EEEE  N     N  U    U         1";
+	cout<<"\n	M M     M M  E     N N   N  U    U     0    1";
+	Beep(330,100); Sleep(300);
+	Beep(392,100); Sleep(700);
+	Beep(196,100); Sleep(700);
+	cout<<"\n	M  M   M  M  EEEE  N  N  N  U    U           1";
+	Beep(262,300); Sleep(300);
+	Beep(196,300); Sleep(300);
+	cout<<"\n	M   M M   M  E     N   N N  U    U     0    1";
+	Beep(164,300); Sleep(300);
+	Beep(220,300); Sleep(100);
+	Beep(246,100); Sleep(300);
+	cout<<"\n	M    M    M  EEEE  N    N   UUUUUU         1";
+	Beep(233,200); 
+	Beep(220,100); Sleep(300);
+	cout<<"\n__________________________________________________________________________________________________________\n";
+	Beep(196,100); Sleep(150);
+	Beep(330,100); Sleep(150);
+	cout<<"\n   1.- Calculadora Constantes" <<endl;
+	cout<<"\n   2.- Resta de dos Numeros Variables" <<endl;
+	cout<<"\n   3.- Resta con Constantes" <<endl;
+	cout<<"\n   4.- Multiplicacion con Constantes" <<endl;
+	cout<<"\n   5.- Divicion con Constantes" <<endl;
+	cout<<"\n   6.- Divicion con Variables" <<endl;
+	cout<<"\n   7.- Multiplicacion de Variables" <<endl;
+	cout<<"\n   8.- Resta de Variables" <<endl;
+	cout<<"\n   9.- Area y perimetro del Rombo" <<endl;
+	cout<<"\n  10.- Area y volumen del Cubo" <<endl;
+	cout<<"\n  11.- Esfera" <<endl;
+	cout<<"\n  12.- Rombo Constantes" <<endl;
+	cout<<"\n  13.- Cubo Constantes" <<endl;
+	cout<<"\n  14.- Esfera constantes" <<endl;
+	cout<<"\n  15.- Calificaciones-Promedio-aprobado o reprobado" <<endl;
+	cout<<"\n  16.- Area y volumen de Piramide Cuadrangular" <<endl;
+	cout<<"\n  17.- Positivo o Negativo Numero" <<endl;
+	cout<<"\n  18.- Pago extra - Pago normal" <<endl;
+	cout<<"\n  19.- Dolares a pesos" <<endl;
+	cout<<"\n  20.- Numero igual o diferente a 100" <<endl;
+	cout<<"\n  21.- Letra del abecedario - decir si pertenece a las primeras 10 letras" <<endl;
+	cout<<"\n  22.- Area y volumen de un Cono" <<endl;
+	cout<<"\n  23.- For programa 0 al 100" <<endl;
+	cout<<"\n  24.- Impresion del 2000 al 5000" <<endl;
+	cout<<"\n  25.- Suma de los primeros 9 digitos y me diga la media" <<endl;
+	cout<<"\n  26.- Area y Volumen de un Prisma Recto" <<endl;
+	cout<<"\n  27.- Numeros Par-Impar Alternados" <<endl;
+	cout<<"\n  28.- Que triangulo es" <<endl;
+	cout<<"\n  29.- Positivo Negativo 2.0" <<endl;
+	cout<<"\n  30.- Numero del Mes" <<endl;
+	cout<<"\n  31.- Dia de la semana" <<endl;
+	cout<<"\n  32.- Edad" <<endl;
+	cout<<"\n  33.- Multiplos del 3 al 90 - For" <<endl;
+	cout<<"\n  34.- La Suma de los 20 numeros - For" <<endl;
+	cout<<"\n  35.- Suma de los Numeros Pares - For" <<endl;
+	cout<<"\n  36.- Numeros Impares" <<endl;
+	cout<<"\n  37.- Exponentes" <<endl;
+	cout<<"\n  38.- Operacion" <<endl;
+	cout<<"\n  39.- Numeros - While" <<endl;
+	cout<<"\n  40.- Perimetro" <<endl;
+	cout<<"\n  41.- Area de Triangulo" <<endl;
+	cout<<"\n  42.- Sistema Decimal" <<endl;
+	cout<<"\n  43.- Contrasena - While" <<endl;
+	cout<<"\n  44.- Suerte con tu numero" <<endl;
+	cout<<"\n  45.- Ciclo Do-While" <<endl;
+	cout<<"_______________________________________________________________________\n";
+	Beep (392,100);Sleep(150);
+	Beep (440,100);Sleep(300);
+	 cout<<" Teclea el numero correspondiente al programa que deseas utilizar \n"; 
+	Beep (349,100);Sleep(100);
+	Beep (392,100);Sleep(300);
+	cout<<"_______________________________________________________________________\n";
+	Beep (330,100);Sleep(300);
+	Beep (262,100);Sleep(100);
+	Beep (294,100);Sleep(100);
+    Beep (247,100);Sleep(500);
+	 cin>>opcion;
+		system("cls");
+	switch(opcion)
+	{
+	case 1:			//Calculadora Constantes
+		{
+			system("color 2");
+			cout<<"\n		Elegiste la opcion 1: Calculadora Constantes\n";
+			cout<<"\nTu valor 1 es = 75\nTu valor 2 es = 25\n";
+		int n1=75, n2=25, suma, resta, multiplicacion, division;
+		suma=n1+n2;
+			resta=n1-n2;
+				multiplicacion=n1*n2;
+					division=n1/n2;
+		cout<<"\n  La suma de 75+25 es: "<<suma;
+	  		cout<<"\n  La resta de 75-25 es: "<<resta;
+	  			cout<<"\n  La multiplicacion de 75*25 es: " <<multiplicacion;
+	  				cout<<"\n  La divicion de 75/25 es: " <<division;
+	  							cout<<"\n\n		Teclea Enter o cualquier tecla para regresar al menu";
+		}
+	break;
+	case 2:			//Resta de dos Numeros Variables
+		{
+			system("color 3");
+		int B1, B2, resta;
+		cout<<"\n		Elegiste la opcion 2: Resta de dos Numeros Variables \n";
+		cout<<"\nIngresa tu primer valor: "; cin>> B1;	
+			cout<<"\nIngresa tu segundo valor: "; cin>> B2;
+				resta=B1-B2;
+		  		cout<<"\n	La resta de tus valores es: "<<resta;
+		  						cout<<"\n\n		Teclea Enter o cualquier tecla para regresar al menu";
+		}
+	break;
+	case 3:			//Resta con Constantes
+		{
+			system("color 4");
+		int B1=890, B2=193, A3=141, A4=229, resta;
+		cout<<"\n		Elegiste la opcion 3: Resta de 4 Numeros con Constantes \n";
+		cout<<"Tus constantes son:\n 890\n 193\n 141\n 229";
+			resta=B1-B2-A3-A4;
+			cout<<"\n	La resta de 890-193-141-229 es: "<<resta;
+								cout<<"\n\n		Teclea Enter o cualquier tecla para regresar al menu";
+		}
+	break;
+	case 4:			//Multiplicacion con Constantes
+		{
+			system("color 5");
+		int BA=85, AB=25, AA=51, BB=79, multiplicacion;
+		cout<<"\n		Elegiste la opcion 4: Multiplicacion de cuatro numeros con Constantes \n";
+		cout<<"Tus constantes son:\n 85\n 25\n 51\n 79";
+				multiplicacion= BA*AB*AA*BB;
+			cout<<"\n	La multiplicacion de 85*25*51*79 es: "<<multiplicacion;
+								cout<<"\n\n		Teclea Enter o cualquier tecla para regresar al menu";
+		}
+	break;
+	case 5:			//Divicion con Constantes
+		{
+			system("color 6");
+		float QW=4044, ER=413, WQ=52, RE=2, division;
+		cout<<"\n		Elegiste la opcion 5: Divicion de 4 numeros con Constantes \n";
+		cout<<"Tus constantes son:\n 4044\n 413\n 52\n 2";
+ 				division=QW/ER/WQ/RE;
+ 			cout<<"\n	El resultado de la divicion es: "<<division;
+ 								cout<<"\n\n		Teclea Enter o cualquier tecla para regresar al menu";
+		}
+	break;
+	case 6:			//Divicion con Variables
+		{
+			system("color 7");
+		float ZX, CV, XZ, VC, division;
+		cout<<"\n		Elegiste la opcion 6: Divicion de 4 Numeros - Variables  \n";
+			cout<<"\nIngrese su primer valor: ";cin>>ZX; 
+			cout<<"Ingrese su segundo valor: ";cin>>CV;
+			cout<<"Ingrese su tercer valor: ";cin>>XZ;
+			cout<<"Ingrese su cuarto valor: ";cin>>VC;
+					division=ZX/CV/XZ/VC;
+				cout<<"\n	El resultado de la division de tus valores es: "<<division;
+								cout<<"\n\n		Teclea Enter o cualquier tecla para regresar al menu";
+		}
+	break;
+	case 7:			//Multiplicacion de Variables
+		{
+			system("color 8");
+		int AS, DF, SA, FD, multiplicacion;
+		cout<<"\n		Elegiste la opcion 7: Multiplicacion de 4 Numeros - Variables  \n";
+			cout<<"\nIngrese su primer valor: ";cin>>AS;
+			cout<<"Ingrese su segundo valor: ";cin>>DF;
+			cout<<"Ingrese su tercer valor: ";cin>>SA;
+			cout<<"Ingrese su cuarto valor: ";cin>>FD;
+	 				 multiplicacion=AS*DF*SA*FD;
+	  			cout<<"\n	El resultado de la multiplicacion de tus valores es: "<<multiplicacion;
+	  							cout<<"\n\n		Teclea Enter o cualquier tecla para regresar al menu";
+		}
+	break;
+	case 8:			//Resta de Variables
+		{
+			system("color 9");
+		int TY, UI, YT, IU, resta;
+		cout<<"\n		Elegiste la opcion 8: Resta de 4 Numeros - Variables  \n";
+			cout<<" Ingrese su primer valor: ";cin>> TY;
+			cout<<" Ingrese su segundo valor: ";cin>> UI;
+			cout<<" Ingrese su tercer valor: ";cin>> YT;
+			cout<<" Ingrese su cuarto valor: ";cin>> IU;
+					resta=TY-UI-YT-IU;
+				cout<<" El resultado de tu resta es: "<<resta;
+								cout<<"\n\n		Teclea Enter o cualquier tecla para regresar al menu";
+		}
+	break;
+	case 9:			//Area y perimetro del Rombo
+		{
+			system("color A");
+		int D, d, L, area, perimetro;
+			cout<<" Ingresa el valor de la diagonal Mayor: "; cin>>D;
+			cout<<" Ingresa el valor de la diagonal menor: "; cin>>d;
+			cout<<" Ingresa el valor de lado del rombo: "; cin>>L;
+				area= D*d/2;
+		 			perimetro= L*4;
+				cout<<"\n	Tu area es: " <<area;
+					cout<<"\n	Tu perimetro es: " <<perimetro;
+								cout<<"\n\n		Teclea Enter o cualquier tecla para regresar al menu";
+		}
+	break;
+	case 10:		//Area y volumen del Cubo
+		{
+			system("color B");
+		int a, area, volumen, potencia;
+			cout<<" Ingresa el valor del arista de tu cubo: "; cin>>a;
+	 			area= 6*a*a;
+				cout<<"\n El area de tu cubo es: " <<area;
+	 				volumen= a*a*a;
+					cout<<"\n El volumen de tu cubo es: " <<volumen;
+								cout<<"\n\n		Teclea Enter o cualquier tecla para regresar al menu";
+		}
+	break;
+	case 11:		//Esfera
+		{
+			system("color C");
+		double P=3.1416, radio, longitudC, areaC, volumenE;
+			cout<<"Ingresar el valor de radio: "; cin>>radio;
+				longitudC= 2*P*radio;
+				cout<<"\nTu longitud es: " <<longitudC;
+					areaC= P*radio*radio;
+					cout<<"\nTu area es: " <<areaC;
+						volumenE= radio*radio*radio*P*4/3;
+						cout<<"\nTu volumen es: " <<volumenE;
+								cout<<"\n\n		Teclea Enter o cualquier tecla para regresar al menu";
+		}
+	break;
+	case 12:		//Rombo Constantes
+		{
+			system("color D");
+			int D=8, d=4, L=5, area, perimetro;
+			cout<<"     			AREA Y PERIMETRO DE UN ROMBO - CONSTANTES";
+				area= D*d/2;
+		 			perimetro= L*4;
+	 			cout<<"\nTu area es: " << area;
+	 				cout<<"\nTu perimetro es: " << perimetro;
+	 							cout<<"\n\n		Teclea Enter o cualquier tecla para regresar al menu";
+		}
+	break;
+	case 13:		//Cubo Constantes
+		{
+			system("color E");
+			int L=3, area, volumen;
+		cout<<"       				AREA Y VOLUMEN DE UN CUBO - CONSTANTES";
+		cout<<"\nLas constantes que tienes son:" <<endl;
+		cout<<"\nLado=3\nNumero de caras=6\n\nPara calcular el area es el numero de caras*lado*lado\n\nPara calcular el volumen multiplicas lado*lado*lado\n";
+			area= 6*L*L;
+				volumen= L*L*L;
+			cout<<"\n	Tu area es: " << area;
+				cout<<"\n	Tu volumen es: " << volumen;
+					  							cout<<"\n\n		Teclea Enter o cualquier tecla para regresar al menu";
+		}
+	break;
+	case 14:		//Esfera constantes
+		{
+			system("color F");
+			double P=3.1416, radio= 3, longitudC, areaC, volumenE;
+			cout<<"     		 		LONGITUD, AREA Y VOLUMEN DE UNA ESFERA - CONSTANTES\n";
+			cout<<"_______________________________________________________";
+			cout<<"\nLas constantes que tienes son:" <<endl;
+			cout<<"\nPi=3.1416\nRadio=3\n";
+			cout<<"_______________________________________________________";
+			cout<<"\nPara calcular la longitud es 2*PI*radio\nPara calcular el area es PI*radio*radio\nPara calcular el volumen es radio*radio*radio*PI*4/3\n";
+			cout<<"_______________________________________________________";
+			longitudC= 2*P*radio;
+			cout<<"\n  Tu longitud es: " <<longitudC;
+				areaC= P*radio*radio;
+				cout<<"\n  Tu area es: " <<areaC;
+					volumenE= radio*radio*radio*P*4/3;
+					cout<<"\n  Tu volumen es: " <<volumenE;
+	  							cout<<"\n\n		Teclea Enter o cualquier tecla para regresar al menu";					
+		}
+	break;
+	case 15:		//Calificaciones-Promedio-aprobado o reprobado
+		{
+			system("color 1");
+			int c1, c2, c3, c4, c5, suma, promedio;
+			cout<<"     		 		Calificaciones - Promedio - Aprobado o Reprobado\n";
+			cout<<"_______________________________________________________\n";
+			cout<<"\ningresa la primera calificacion:";cin>>c1;
+			cout<<"ingresa la segunda calificacion:";cin>>c2;
+			cout<<"ingresa la tersera calificacion:";cin>>c3;
+			cout<<"ingresa la cuarta calificacion:";cin>>c4;
+			cout<<"ingresa la quinta calificacion:";cin>>c5;
+			cout<<"_______________________________________________________";
+	 			suma= c1+c2+c3+c4+c5;
+	 			promedio=suma/5;
+			cout<<"\n tu promedio es: " <<promedio;
+			if(promedio<=5)			
+			cout<<"\n  Estas reprobado\n";
+			else
+			cout<<"\n  Estas aprobado\n";
+			cout<<"_______________________________________________________";
+	  							cout<<"\n\n		Teclea Enter o cualquier tecla para regresar al menu";
+		}
+	break;
+	case 16:		//Area y volumen de Piramide Cuadrangular
+		{
+			system("color 2");
+			float lb, h, Acl, Ab, ACL, sumaACL, Apiramide, volumen;
+			cout<<"     		 		Area y volumen de una Piramide Cuadrangular\n";
+			cout<<"_______________________________________________________\n";
+ 			cout<<"Ingresa el valor de un lado de la base: "; cin>> lb; //l=lado b=base
+ 				Ab= lb*lb;
+ 	  		cout<<"El area de la base es: " << Ab <<endl;
+ 	  		cout<<"_______________________________________________________\n";
+ 			cout<<"\nIngresa el valor de la altura de una cara lateral: "; cin>> Acl; //A=altura c=cara l=lateral
+ 				ACL= lb*Acl/2;
+ 	  		cout<<"El area de tu cara lateral es: " << ACL;
+ 				sumaACL= ACL*4;
+ 	 		cout<<"\nLa suma del area de tus caras laterales es: " << sumaACL <<endl;
+ 				Apiramide= Ab+sumaACL;
+ 	  		cout<<"\nEl area de la Piramide es: " <<Apiramide <<endl;
+ 			cout<<"_______________________________________________________\n";
+ 			cout<<"\nIngresa el valor de la altura de tu piramide cuadrangular: "; cin>> h;
+ 				volumen= Ab*h/3;
+ 	  		cout<<"El volumen de tu piramide cuadrangular es: " << volumen;	
+ 	  		cout<<"\n_______________________________________________________\n";
+	  							cout<<"\n\n		Teclea Enter o cualquier tecla para regresar al menu";
+		}
+	break;
+	case 17:		//Positivo o Negativo Numero
+		{
+			system("color 3");
+		int n, n2;
+		cout<<"     		 		Positivo o Negativo Numero\n";
+		cout<<"_______________________________________________________\n";
+			cout<<"Ingresa tu digito: "; cin>> n;
+		if(n>=-0)
+	 		cout<<"tu digito es positivo" <<endl;
+	 	else
+	 		cout<<"tu digito es negativo" <<endl;
+	 		cout<<"_______________________________________________________\n";
+	 
+	 		cout<<"\nIngresa otro digito: "; cin>> n2;
+	 	if(n2>=-0)
+	 		cout<<"tu digito es positivo";
+	 	else
+	 		cout<<"tu digito es negativo";	
+	 		cout<<"_______________________________________________________\n";
+		  							cout<<"\n\n		Teclea Enter o cualquier tecla para regresar al menu";
+		}
+	break;
+	case 18:		//Pago extra - Pago normal
+		{
+			system("color 4");
+		int ht, ht2; //h=horas t=trabajadas
+		cout<<"     		 		Pago extra - Pago normal\n";
+		cout<<"_______________________________________________________\n";
+			cout<<"\n Cuantas horas trabajaste?: "; cin>> ht;
+		if(ht<=40)
+	 		cout<<"  Tu pago es normal" <<endl;
+	 	else
+	 		cout<<"  Tu pago es extra" <<endl;
+	 	cout<<"\n_______________________________________________________\n";
+	 	cout<<"\n Cuantas horas trabajaste la 2da semana?: "; cin>> ht2;
+	 	if(ht2<=40)
+	 		cout<<"  Tu pago es normal" <<endl;
+	 	else
+	 		cout<<"  Tu pago es extra" <<endl;	
+	 	cout<<"\n_______________________________________________________\n";
+	  							cout<<"\n\n		Teclea Enter o cualquier tecla para regresar al menu";
+		}
+	break;
+	case 19:		//Dolares a pesos
+		{
+			system("color 5");
+		int dolares, Preciodeldolar=20, pesos;
+			cout<<"     		 		Dolares a pesos Mexicanos\n";
+			cout<<"\n_______________________________________________________\n";
+			cout<<"	Precio del dolar = 20";
+			cout<<"\n_______________________________________________________\n";
+			cout<< " Ingrese su cantidad de dolares: "; cin>> dolares;
+			cout<<"\n_______________________________________________________\n";
+				pesos= dolares*Preciodeldolar;
+	 		cout<<"\n  Los dolares ingresados equivalen a: " <<pesos << " pesos mexicanos";
+	 		cout<<"\n_______________________________________________________\n";
+	  							cout<<"\n\n		Teclea Enter o cualquier tecla para regresar al menu";
+		}
+	break;
+	case 20:		//Numero igual o diferente a 100
+		{
+			system("color 6");
+		int N,valor;
+		cout<<"     		 		Numero igual o diferente a 100\n";
+		cout<<"\n_______________________________________________________\n";
+    		cout<<" Ingresa el numero que deseas comparar:"; cin>>N;
+    	if (N==100)
+    		cout<<"\n  Tu valor es igual a 100";
+    	else 
+    		cout<<"\n  Tu valor es diferente a 100";
+    		cout<<"\n_______________________________________________________\n";
+	  							cout<<"\n\n		Teclea Enter o cualquier tecla para regresar al menu";
+		}
+	break;
+	case 21:		//Letra del abecedario - decir si pertenece a las primeras 10 letras
+		{
+			system("color 7");
+			int Labecedario, abecedario=26;
+		
+			cout<<"\n Ingresa tu letra del abecedario: "; cin>>Labecedario;
+	
+		if(Labecedario<=abecedario-10)
+	 		cout<<"\n Tu letra SI pertenece a las 10 primeras letras";
+		else
+			 cout<<"\n Tu letra NO pertenece a las 10 primeras letras";
+			 cout<<"\n_______________________________________________________\n";
+	  							cout<<"\n\n		Teclea Enter o cualquier tecla para regresar al menu";
+		}
+	break;
+	case 22:		//Area y volumen de un Cono
+		{
+			system("color 8");
+		float PI=3.1416, radio, h, volumen, AC, G, AL, AT;
+	cout<<"Ingresa el valor de tu radio: "; cin>>radio;
+	cout<<"Ingresa el valor de tu altura: "; cin>>h;
+		volumen= PI*radio*radio*h/3;
+	 cout<<"El volumen de tu cono es: " <<volumen <<endl;
+	cout<<"Ingresa el valor de la generatriz: "; cin>>G; //G= generatriz
+		AL= PI*radio*G;
+	 cout<<"El area lateral es: " <<AL <<endl;
+		AT= AL+PI*radio*radio;
+	 cout<<"El area total de tu cono es: " <<AT;
+	 cout<<"\n_______________________________________________________\n";
+	  							cout<<"\n\n		Teclea Enter o cualquier tecla para regresar al menu";
+		}
+	break;
+	case 23:		//For programa 0 al 100
+		{
+			system("color 9");
+		for(int i=0; i<=100; i++)
+	{
+		cout<< i <<endl;
+	}		
+	cout<<"\n_______________________________________________________\n";
+	  							cout<<"\n\n		Teclea Enter o cualquier tecla para regresar al menu";
+		}
+	break;
+	case 24:		//Impresion del 2000 al 5000
+		{
+			system("color A");
+		for(int i=2000; i<=5000; i++)
+	{
+		cout<< i <<endl;
+	}	
+		cout<<"\n_______________________________________________________\n";
+	  							cout<<"\n\n		Teclea Enter o cualquier tecla para regresar al menu";
+		}
+	break;
+	case 25:		//Suma de los primeros 9 digitos y me diga la media
+		{
+			system("color B");
+		for(int i=1; i<=9; i++)
+	{
+		cout<< i  <<endl;
+	}
+	{
+		int i=1+2+3+4+5+6+7+8+9, media;
+		cout<<"La suma de tus primeros 9 digitos es: " << i;
+			media= i/9;
+		  cout<<"\nLa media de tus digitos es: " << media;
+	}
+		cout<<"\n_______________________________________________________\n";
+	  							cout<<"\n\n		Teclea Enter o cualquier tecla para regresar al menu";
+		}
+	break;
+	case 26:		//Area y Volumen de un Prisma Recto
+		{
+			system("color C");
+		float l, a, Ab, h, volumen, At, At2;
+	cout<<"Ingresa el largo de la base de tu Prisma Recto: "; cin>> l;
+	 cout<<"Ingresa el ancho de la base de tu Prisma Recto: "; cin>> a;
+	  cout<<"Ingresa la altura de tu Prisma Recto: "; cin>> h;
+			Ab= l*a;
+			 volumen= Ab*h;
+			  At= l*a+l*h+a*h;
+			   At2= At*2;
+		cout<<"El Area total de tu Prisma Recto es: " << At2 <<endl;
+	    cout<<"El volumen de tu Prisma Recto es: " << volumen <<endl;
+			cout<<"\n_______________________________________________________\n";
+	  							cout<<"\n\n		Teclea Enter o cualquier tecla para regresar al menu";	
+		}
+	break;
+	case 27:		//Numeros Par-Impar Alternados
+		{
+			system("color D");
+		for(int i=400, i2=401; i<=600, i2<=600; i+=2, i2+=2){
+	 cout<<"par : "<< i <<endl;
+		cout<<"impar :"<< i2 <<endl;	
+	}	
+		cout<<"\n_______________________________________________________\n";
+	  							cout<<"\n\n		Teclea Enter o cualquier tecla para regresar al menu";
+		}
+	break;
+	case 28:		//Que triangulo es
+		{
+			system("color E");
+		}
+	break;
+	case 29:		//Positivo Negativo 2.0
+		{
+			system("color F");
+		int num, num2;
+    cout<<"ingresa tu valor a comparar:";cin>>num;
+    	if (num>0){
+			cout<<"tu numero es positivo";
+        }
+        else if(num<0){
+        	cout<<"tu numero es negativo";
+        }
+        else if(num==0){
+        	cout<<"tu numero es neutral";
+        }
+    cout<<"\nIngresa tu segundo valor a comparar:";cin>>num2;
+    	if (num2>0){
+			cout<<"tu numero es positivo";
+        }
+        else if(num2<0){
+        	cout<<"tu numero es negativo";
+        }
+        else if(num2==0){
+        	cout<<"tu numero es neutral";
+        }
+			cout<<"\n_______________________________________________________\n";
+	  							cout<<"\n\n		Teclea Enter o cualquier tecla para regresar al menu";	
+		}
+	break;
+	case 30:		//Numero del Mes
+		{
+			system("color 1");
+		int mes;
+    cout<<"ingresa tu numero para saber el mes: "; cin>>mes;
+    	if (mes==1){
+			cout<<"\nTu mes es Enero";
+        }
+        else if(mes==2){
+        	cout<<"\nTu mes es Febrero";
+        }
+        else if(mes==3){
+        	cout<<"\nTu mes es Marzo";
+        }
+        else if(mes==4){
+        	cout<<"\nTu mes es abril";
+        }
+        else if(mes==5){
+        	cout<<"\nTu mes es Mayo";
+        }
+        else if(mes==6){
+        	cout<<"\nTu mes es Junio";
+        }
+        else if(mes==7){
+        	cout<<"\nTu mes es Julio";
+        }
+        else if(mes==8){
+        	cout<<"\nTu mes es Agosto";
+        }
+        else if(mes==9){
+        	cout<<"\nTu mes es Septiembre";
+        }
+        else if(mes==10){
+        	cout<<"\nTu mes es Octubre";
+        }
+        else if(mes==11){
+        	cout<<"\nTu mes es Noviembre";
+        }
+        else if(mes==12){
+        	cout<<"\nTu mes es Diciembre";
+        }
+        else if(mes>=13){
+        	cout<<"\nTu valor no esta dentro de los meses del annio";
+        }
+        	cout<<"\n_______________________________________________________\n";
+	  							cout<<"\n\n		Teclea Enter o cualquier tecla para regresar al menu";
+		}
+	break;
+	case 31:		//Dia de la semana
+		{
+			system("color 2");
+		int dia;
+        cout<<"ingresa el numero para saber a que dia corresponde: ";cin>>dia;
+        if (dia==1){
+			cout<<"\nTu dia es Lunes";
+        }
+        else if(dia==2){
+        	cout<<"\nTu dia es Martes";
+        }
+        else if(dia==3){
+			cout<<"\nTu dia es Miercoles";
+        }
+        else if(dia==4){
+            cout<<"\nTu dia es Jueves";
+        }
+        else if(dia==5){
+        	cout<<"\nTu dia es Viernes";
+        }
+        else if(dia==6){
+            cout<<"\nTu dia es Sabado";
+        }
+        else if(dia==7){
+            cout<<"\nTu dia es Domingo";
+        }
+        else if(dia>=8){
+            cout<<"\nEste numero no pertenece a algun dia de la semana";
+        }
+        	cout<<"\n_______________________________________________________\n";
+	  							cout<<"\n\n		Teclea Enter o cualquier tecla para regresar al menu";
+		}
+	break;
+	case 32:		//Edad
+		{
+			system("color 3");
+		int edad;
+        cout<<"ingresa tu edad para decirte en que etapa estas: "; cin>> edad;
+        if (edad<=12){
+            cout<<"\nEres un nino";
+        }
+         else if(edad<=18){
+        	cout<<"\nEres un adolescente";
+        }
+         else if(edad<=22){
+            cout<<"\nEres un joven";
+        }
+         else if(edad<=50){
+            cout<<"\nEres un adulto";
+        }
+         else if(edad>50){
+        	cout<<"\nEres un anciano";
+        }
+			cout<<"\n_______________________________________________________\n";
+	  							cout<<"\n\n		Teclea Enter o cualquier tecla para regresar al menu";	
+		}
+	break;
+	case 33:		//Multiplos del 3 al 90 - For
+		{
+			system("color 4");
+			int m; // m=multiplos
+	for(int m=3; m<=90; m+=3){
+		cout<< m << endl;
+	}
+		cout<<"\n_______________________________________________________\n";
+	  							cout<<"\n\n		Teclea Enter o cualquier tecla para regresar al menu";
+		}
+	break;
+	case 34:		//La suma de los 20 numeros - For
+		{
+			system("color 5");
+		for(int n=1; n<=20; n++)
+	{
+		cout<< n  <<endl;
+	}
+	{
+		int n=1+2+3+4+5+6+7+8+9+10+11+12+13+14+15+16+17+18+19+20;
+		cout<<"La suma de tus 20 digitos es: " << n;
+	}	
+		cout<<"\n_______________________________________________________\n";
+	  							cout<<"\n\n		Teclea Enter o cualquier tecla para regresar al menu";
+		}
+	break;
+	case 35:		//La suma de los numeros pares
+		{
+			system("color 6");
+		for(int i=0; i<=200; i+=2){
+		cout<< i <<endl;
+	}	
+		cout<<"\n_______________________________________________________\n";
+	  							cout<<"\n\n		Teclea Enter o cualquier tecla para regresar al menu";
+		}
+	break;
+	case 36:		//Numeros impares
+		{
+			system("color 7");
+		for(int i=101; i<=200; i+=2){
+		cout<<"impar: " << i<< endl;
+	}	
+		cout<<"\n_______________________________________________________\n";
+	  							cout<<"\n\n		Teclea Enter o cualquier tecla para regresar al menu";
+		}
+	break;
+	case 37:		//Exponentes
+		{
+			system("color 8");
+		float resultado;
+		resultado = 3*3; 
+	cout<<"Tu resultado es: " << resultado;	
+		cout<<"\n_______________________________________________________\n";
+	  							cout<<"\n\n		Teclea Enter o cualquier tecla para regresar al menu";
+		}
+	break;
+	case 38:		//Operacion
+		{
+			system("color 9");
+		float n, resultado;
+	cout<<"Ingresa tu digito: "; cin>> n; 
+	
+		resultado= n*4/2+9-3;
+		
+	cout<<"\nTu resultado es: " << resultado;
+		cout<<"\n_______________________________________________________\n";
+	  							cout<<"\n\n		Teclea Enter o cualquier tecla para regresar al menu";	
+		}
+	break;
+	case 39:		//Numeros - while
+		{
+			system("color A");
+		int v;
+	cout<<"Ingresa tu valor: "; cin>>v;
+	while(--v){
+		cout<< v <<endl;
+	}	
+		cout<<"\n_______________________________________________________\n";
+	  							cout<<"\n\n		Teclea Enter o cualquier tecla para regresar al menu";
+		}
+	break;
+	case 40:		//Perimetro
+		{
+			system("color B");
+		float l1, perimetro;
+	cout<<"Ingresa la medida de tu primer lado: "; cin>>l1;
+		perimetro= l1*3;
+	cout<<"Tu perimetro es: " << perimetro;	
+		cout<<"\n_______________________________________________________\n";
+	  							cout<<"\n\n		Teclea Enter o cualquier tecla para regresar al menu";
+		}
+	break;
+	case 41:		//Area de Triangulo
+		{
+			system("color C");
+		float b, h, area;
+	cout<<"Ingresa la base: "; cin>>b;
+	cout<<"Ingresa la altura: "; cin>>h;
+		area= b*h/2;
+	cout<<"Tu area es: " << area;
+		cout<<"\n_______________________________________________________\n";
+	  							cout<<"\n\n		Teclea Enter o cualquier tecla para regresar al menu";	
+		}
+	break;
+	case 42:		//Sistema decimal
+		{
+			system("color D");
+		int v, unidades=9, decenas=99, centenas=999, miles=9999, diezm=99999, cienm=999999, millones=9999999;
+		cout<<"Ingresa un valor para decirte a que pertenece: "; cin>>v;
+	if(v<=unidades){
+		cout<<"Es una unidad";
+}
+	else if (v<=decenas){
+		cout<<"Es una decena";
+}
+	else if (v<=centenas){
+		cout<<"Es una centena";
+}
+	else if (v<=miles){
+		cout<<"Es un miles";
+}
+	else if (v<=diezm){
+		cout<<"Es un Diez miles";
+}
+	else if (v<=cienm){
+		cout<<"Es un cien miles";
+}
+	else if (v<=millones){
+		cout<<"Es millones";
+}	
+	cout<<"\n_______________________________________________________\n";
+	  							cout<<"\n\n		Teclea Enter o cualquier tecla para regresar al menu";
+		}
+	break;
+	case 43:		//Contrasena - while
+		{
+			system("color E");
+		int v;
+		cout<<"Inserte la contrasena: ";
+			cin>> v;
+	while(v!=123)
+	{
+		cout<<"Contrasena incorrecta, intente de nuevo: ";
+			cin>> v;
+	}
+	while(v==123)
+	{
+		cout<<"Encontraste tu contrasena";
+			cin>> v;
+	}	
+		cout<<"\n_______________________________________________________\n";
+	  							cout<<"\n\n		Teclea Enter o cualquier tecla para regresar al menu";
+		}
+	break;
+	case 44:		//Suerte con tu numero
+		{
+			system("color F");
+		int Snum=10;
+	do{
+		cout<<"Suerte con tu numero: " <<Snum<<endl;
+	}
+	while(Snum==1, Snum--);	
+		cout<<"\n_______________________________________________________\n";
+	  							cout<<"\n\n		Teclea Enter o cualquier tecla para regresar al menu";
+		}
+	break;
+	case 45:		//Ciclo Do-While
+		{
+			system("color 1");
+		int num=18, num2;
+	do{
+		cout<< num <<endl;
+	}
+	while(num<=1, num--);
+	{
+		cout<<"Ingresa tu valor: "; cin>> num2;
+	if (num2<=18)
+		cout<<"Tu valor esta comprendido entre mis valores";
+	else if(num2<=49)
+		cout<<"Tu valor NO esta comprendido entre mis valores";
+	else (num2>=50);
+	}	
+		cout<<"\n_______________________________________________________\n";
+	  							cout<<"\n\n		Teclea Enter o cualquier tecla para regresar al menu";
+		}
+	break;
+	}
+	getch();
+	system("cls");
+}
+	return 0;
+}
